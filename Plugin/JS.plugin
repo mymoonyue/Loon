@@ -88,71 +88,71 @@ http-response ^https:\/\/api\.gkocr\.com\/api\/userlogin1.php requires-body=1,ma
 
 # > Miao Miao
 # > Bear熊掌记 (By Miao Miao)
-// bear.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js,type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js
 # > 第一弹  (By Miao Miao)
 # > 去广告+原画
-Diyidan.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/Diyidan.js,type=http-response,pattern=^https:\/\/api\.diyidan\.net\/v0\.3\/(user\/personal_homepage|vip_user\/info|tv_series\/index\?appChanne)
+http-response ^https:\/\/api\.diyidan\.net\/v0\.3\/(user\/personal_homepage|vip_user\/info|tv_series\/index\?appChanne) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/Diyidan.js
 
 # > syzzzf
 # 轻颜相机 & ulike & 蒸汽波相机(vaporcam)三合一 解锁VIP(By @s y & Alex0510)
-qyxj.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/qyxj.js,type=http-response,pattern=^https:\/\/commerce-.*api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info
+http-response ^https:\/\/commerce-.*api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/qyxj.js
 # CPU Dasher破解(需要ios13 恢复购买后禁用掉 By @s y)
-// cupdasher.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cupdasher.js,type=http-response,pattern=^https:\/\/p.+-buy\.itunes\.apple\.com\/WebObjects\/MZFinance.woa\/wa\/inAppRegrantPurchaseHistory
+# http-response ^https:\/\/p.+-buy\.itunes\.apple\.com\/WebObjects\/MZFinance.woa\/wa\/inAppRegrantPurchaseHistory requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cupdasher.js
 
 # > Alex0510
 # > 水印精灵 vip (By Alex0510)
-syjl.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js,type=http-response,pattern=^https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo
+http-response ^https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js
 # > 有道云笔记 (By Alex0510)
-ydybj.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/ydybj.js,type=http-response,pattern=https://note.youdao.com/yws/(mapi/payment|api/self)
+http-response ^https://note.youdao.com/yws/(mapi/payment|api/self) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/ydybj.js
 # > 彩云小译 (By Alex0510)
-cyxy.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cyxy.js,type=http-response,pattern=^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user
+http-response ^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cyxy.js
 # > 石墨文档 (By Alex0510)
-shimo.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/shimo.js,type=http-response,pattern=https://api.shimo.im/users/
+http-response ^https://api.shimo.im/users/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/shimo.js
 # 手机硬件管家 (By Alex0510)
-sjyjgj.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sjyjgj.js,type=http-response,pattern=http:\/\/api\.591master\.com\:8081\/(1.0|3.6.8)\/ui(forum|common)\/(downloadwallpaper|getuser)
+http-response ^http:\/\/api\.591master\.com\:8081\/(1.0|3.6.8)\/ui(forum|common)\/(downloadwallpaper|getuser) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sjyjgj.js
 # 花椒视频 (By Alex0510)
-hjsp.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hjsp.js,type=http-response,pattern=http://user.shywck.com/user/userinfo
+http-response ^http://user.shywck.com/user/userinfo requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hjsp.js
 
 # > 凉意
 # 韩剧TV (By 凉意)
 # 下载地址请看脚本内说明
-hanjuTV.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hanjuTV.js,type=http-response,pattern=https\:\/\/hjapi\.bjxkhc\.com\/v2d2\/users\/.*\/member
+http-response ^https\:\/\/hjapi\.bjxkhc\.com\/v2d2\/users\/.*\/member requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hanjuTV.js
 # 筋斗云tv (By 凉意)
-jdyTV.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/jdyTV.js,type=http-response,pattern=^http\:\/\/jdytv\.cn\/login\/login\/veifys
+http-response ^http\:\/\/jdytv\.cn\/login\/login\/veifys requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/jdyTV.js
 # 闪电下载vip (By 凉意)
-sdxz.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sdxz.js,type=http-response,pattern=^http\:\/\/app\.flashdown365\.com\/ios\/login
+http-response ^http\:\/\/app\.flashdown365\.com\/ios\/login requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sdxz.js
 # > JAV101无限观看 (By 凉意)
-JAV101.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/JAV101.js,type=http-response,pattern=^https\:\/\/pwaapi\.gao1gps\.cn\/v1\/user\/info
+http-response ^https\:\/\/pwaapi\.gao1gps\.cn\/v1\/user\/info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/JAV101.js
 
 # > 黑黑酱
 # 小睡眠（by 黑黑酱）
-xiaoshuimian.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xiaoshuimian.js,type=http-response,pattern=^https:\/\/api\.psy-1\.com\/cosleep\/user\/info
+http-response ^https:\/\/api\.psy-1\.com\/cosleep\/user\/info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xiaoshuimian.js
 # 西窗烛 （By 黑黑酱）
-xcz.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xcz.js,type=http-response,pattern=^https:\/\/avoscloud\.com\/1\.1\/users\/
+http-response ^https:\/\/avoscloud\.com\/1\.1\/users\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xcz.js
 # > 美颜相机一次性解锁内购（by黑黑酱）
-myxj.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/myxj.js,type=http-response,pattern=^https:\/\/api\.meiyan\.com\/iap\/verify\.json
+http-response ^https:\/\/api\.meiyan\.com\/iap\/verify\.json requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/myxj.js
 # Fit健身会员 （by黑黑酱）
-fit.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fit.js,type=http-response,pattern=^https:\/\/bea\.sportq\.com\/SFitWeb\/sfit\/getUserBaseInfo
+http-response ^https:\/\/bea\.sportq\.com\/SFitWeb\/sfit\/getUserBaseInfo requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fit.js
 
 # > LTribe
 # > 万里影视 无限时常（by LTribe）
-Wanliyingshi.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/Wanliyingshi.js,type=http-response,pattern=^http?:\/\/.*\.arten.cn/login/login
+http-response ^http?:\/\/.*\.arten.cn/login/login requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/Wanliyingshi.js
 # VideoStar Unlock（by LTribe）
-VideoStar.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/VideoStar.js,type=http-response,pattern=^https?:\/\/.*\.videostarapp\.com\/scripts\/subsNew\.php
+http-response ^https?:\/\/.*\.videostarapp\.com\/scripts\/subsNew\.php requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/VideoStar.js
 # 迅捷应用6合1 （by LTribe）
-xunjie.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xunjie.js,type=http-response,pattern=^https?:\/\/.*\.xunjie.*\.com\/api\/v\d\/*
+http-response ^https?:\/\/.*\.xunjie.*\.com\/api\/v\d\/* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xunjie.js
 
 # > 军哥哥
 # > 洪恩双语绘本 (By 军哥哥)
-hnsyhb.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hnsyhb.js,type=http-response,pattern=https:\/\/bookapi\.ihuman\.com\/(v1\/get\_user\_info|v1\/get\_purchase\_list)
+http-response ^https:\/\/bookapi\.ihuman\.com\/(v1\/get\_user\_info|v1\/get\_purchase\_list) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hnsyhb.js
 # > 中国体育直播unlock (By 军哥哥)
-zgtyzb.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/zgtyzb.js,type=http-response,pattern=http:\/\/rest\.zhibo\.tv\/room\/get\-room\-info\-v430
+http-response ^http:\/\/rest\.zhibo\.tv\/room\/get\-room\-info\-v430 requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/zgtyzb.js
 
 # > sunshy
 # > Fantastical 内购解锁 (By @sunshy)
-fantastical.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fantastical.js,type=http-response,pattern=^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$
+http-response ^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fantastical.js
 # > SoloLearn Unlock PRO & Platinum Moderator (By @sunshy)
-sololearn.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sololearn.js,type=http-response,pattern=https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$
+http-response https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sololearn.js
 
 # > CheeryTodo
 # Pillow (By @CheeryTodo)
