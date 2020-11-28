@@ -1,6 +1,8 @@
-[URL Rewrites]
+#YouTube 去广告，修改自神机
+
+[URL Rewrite]
 (^https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=L)(&.+) $1$3 302
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) - reject
 
 [MITM]
-hostname = %APPEND% *.googlevideo.com
+hostname = *.googlevideo.com
