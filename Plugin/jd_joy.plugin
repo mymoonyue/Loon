@@ -2,7 +2,7 @@
 # Loon订阅插件
 # 然后使用手机默认浏览器打开：
 # openjd://virtual?params=%7B%20%22category%22:%20%22jump%22,%20%22des%22:%20%22m%22,%20%22url%22:%20%22https://crazy-joy.jd.com/?userInviteCode=4xNkxulet0-rfc3eWGgXhA==%22%20%7D
-
+# https://crazy-joy.jd.com/#/?userInviteCode=a1d3713oDIayw4Gu2f2cBqt9zd5YaBeE&_ts=1607019329554
 # 会跳转到京东 APP 中的活动页面。 (链接包含邀请码，介意则手动删除)。
 # 活动界面自动做任务
 # 任务执行时下方 JOY 并不会实时移动，以金币变化为准（金币减少），或手动刷新查看。
