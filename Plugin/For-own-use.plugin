@@ -60,4 +60,4 @@ http-request ^https:\/\/((weather-data\.apple)|(api.weather))\.com, script-path=
 http-response ^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/HotKids/Rules/master/Script/weixin110.js
 
 [MITM]
-hostname = %APPEND% api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, ios.prod.ftl.netflix.com, api.m.jd.com, trade-acs.m.taobao.com, api.bilibili.com, app.bilibili.com, api.live.bilibili.com, *.kuwo.cn, vip1.kuwo.cn, mb3admin.com, weather-data.apple.com, api.weather.com, weixin110.qq.com
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, ios.prod.ftl.netflix.com, api.m.jd.com, trade-acs.m.taobao.com, api.bilibili.com, app.bilibili.com, api.live.bilibili.com, *.kuwo.cn, vip1.kuwo.cn, mb3admin.com, weather-data.apple.com, api.weather.com, weixin110.qq.com
