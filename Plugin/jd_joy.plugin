@@ -1,6 +1,6 @@
 # 京东双十二 疯狂的JOY 自动合并JS注入,感谢原JS作者：小赤佬 & QX脚本作者：elecV2,Loon插件垃圾搬运工 @mymoon_yue
 # Loon订阅插件，然后建议用Chrome或其他浏览器打开，自带的可能打不开：
-# https://crazy-joy.jd.com/#/?userInviteCode=a1d3713oDIayw4Gu2f2cBqt9zd5YaBeE&_ts=1607021208185
+# openjd://virtual?params=%7B%20%22category%22:%20%22jump%22,%20%22des%22:%20%22m%22,%20%22url%22:%20%22https://crazy-joy.jd.com/?userInviteCode=a1d3713oDIayw4Gu2f2cBqt9zd5YaBeE==%22%20%7D
 # 会跳转到京东 APP 中的活动页面。活动界面自动做任务。
 # 任务执行时下方 JOY 并不会实时移动，以金币变化为准（金币减少），或手动刷新查看。
 
