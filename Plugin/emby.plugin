@@ -1,6 +1,6 @@
 [Script]
 #EmbyPremiere
-http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice requires-body=1,max-size=0, script-path=https://raw.githubusercontent.com/mymoonyue/QuantumultX/master/Scripts/scripts/Embycrack.js,tag=embyUnlocked
+http-response ^http(s?):\/\/(www\.|)mb3admin\.com\/.*$ requires-body=1,max-size=131072, script-path=https://cdn.jsdelivr.net/gh/YukiCoco/YukiUsefulTools@YukiCoco-patch-1/unlock_emby.js,tag=embyUnlocked
 
 [MITM]
-hostname = mb3admin.com
+hostname = mb3admin.com,www.mb3admin.com
