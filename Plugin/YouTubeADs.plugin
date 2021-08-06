@@ -1,8 +1,7 @@
 #YouTube 去广告
-#支持最新版（16.27.3）
 
 [Script]
-http-request ^https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A),script-path=https://choler.github.io/Surge/Script/YouTube.js,script-update-interval=0,enable = true,tag=YouTube去广告
+http-request ^https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A),script-path=https://choler.github.io/Surge/Script/YouTube.js,enable = true,tag=YouTube去广告
 
 [MITM]
 hostname = *.googlevideo.com
