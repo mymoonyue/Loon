@@ -1,7 +1,8 @@
-#YouTube 去广告
+#新版YouTube去广告
 
-[Script]
-http-request ^https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A),script-path=https://choler.github.io/Surge/Script/YouTube.js,enable = true,tag=YouTube去广告
+[URL Rewrite]
+ctier=[A-Z] url 302 ctier=A
+^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url reject-200
 
 [MITM]
 hostname = *.googlevideo.com
